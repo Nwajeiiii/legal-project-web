@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Import your UserProvider
+import { UserProvider } from "./context-apis/UserContext.js";
+
+import SignUpScreen from "./full-screens/signupscreen.js";
+import SigninScreen from "./full-screens/signinscreen.js";
+import HomeScreen from "./full-screens/homescreen.js";
+import AboutScreen from "./full-screens/aboutscreen.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <UserProvider>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/about" element={<AboutScreen />} />
+          <Route path="/signup" element={<SignUpScreen />} />
+          <Route path="/signin" element={<SigninScreen />} />
+          {/* Add other routes here in the future */}
+        </Routes>
+      </UserProvider>
+    </Router>
   );
 }
 

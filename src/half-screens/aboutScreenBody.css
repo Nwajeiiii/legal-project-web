@@ -1,0 +1,46 @@
+.about-body{
+ display: flex;
+ gap: 100px;
+ padding: 50px 100px;
+}
+
+.about-button{
+ background-color: white;
+ border: 0;
+ color: #10172C;
+ font-size: 16px;
+}
+
+.about-first{
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.about-horizontal-line{
+ background-color: #D8D8D8;
+ height: 1px;
+ width: 80%;
+}
+
+.about-image{
+ width: 100%;
+}
+
+.about-navigation{
+ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+ padding: 20px 20px;
+}
+
+.about-second{
+ flex: 2;
+}
+
+.active-about-button {
+ font-weight: bold;
+}
+
+.active-about-line {
+ background-color: #10172C;
+}
