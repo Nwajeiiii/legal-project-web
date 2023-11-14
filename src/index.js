@@ -4,6 +4,7 @@ import App from './App.js';
 import reportWebVitals from "./reportWebVitals.js";
 
 import "aos/dist/aos.css";
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

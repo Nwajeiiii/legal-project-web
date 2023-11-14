@@ -1,0 +1,35 @@
+.law-library-body {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ /* 3 columns */
+ gap: 20px;
+ /* Space between grid items */
+ padding: 50px 100px 200px 100px;
+}
+
+.law-library-image {
+ width: 100%;
+}
+
+/* Responsive design for smaller screens */
+/* @media (max-width: 768px) {
+ .law-library-body {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 20px;
+ }
+} */
+
+/* Responsive design adjustments for .law-library-body */
+@media (max-width: 768px) {
+ .law-library-body {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 20px;
+ }
+}
+
+@media (max-width: 480px) {
+ .law-library-body {
+  grid-template-columns: 1fr;
+  padding: 0 10px;
+ }
+}

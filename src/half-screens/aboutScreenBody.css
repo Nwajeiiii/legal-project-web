@@ -44,3 +44,20 @@
 .active-about-line {
  background-color: #10172C;
 }
+
+/* Responsive design modifications */
+@media (max-width: 768px) {
+ .about-body {
+  flex-direction: column;
+  padding: 20px;
+  /* Adjust padding for smaller screens */
+ }
+
+ .about-first,
+ .about-second {
+  flex: none;
+  width: 100%;
+  /* Ensure full width on smaller screens */
+ }
+
+}

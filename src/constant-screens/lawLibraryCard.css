@@ -1,0 +1,100 @@
+
+.law-library-card-details{
+ align-items: center;
+ background-color: #1A243F;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ height: 200px;
+ justify-content: space-between;
+ padding: 30px 50px;
+}
+
+.law-library-card-details button{
+ background-color: #1A243F;
+ border: 0;
+ color: #AD9779;
+}
+
+.law-library-card-details-description{
+ font-size: 14px;
+ font-weight: 100;
+ line-height: 2.0;
+ text-align: center;
+}
+
+.law-library-card-details-title{
+ font-size: 16px;
+ font-weight: bold;
+ text-align: center;
+}
+
+.law-library-card-image{
+ display: block;
+ width: 100%;
+}
+/* Increased height for larger medium screens */
+@media (max-width: 1200px) {
+ .law-library-card-details {
+  height: 300px;
+ }
+}
+
+/* Increased height for medium screens */
+@media (max-width: 1024px) {
+ .law-library-card-details {
+  height: 300px;
+ }
+}
+
+/* Further increased height for small medium screens */
+@media (max-width: 900px) {
+ .law-library-card-details {
+  height: 325px;
+ }
+}
+
+/* Further increased height for smaller screens */
+@media (max-width: 768px) {
+ .law-library-card-details {
+  height: 350px;
+ }
+}
+
+/* Even more height for very small screens */
+@media (max-width: 600px) {
+ .law-library-card-details {
+  height: 375px;
+ }
+}
+
+/* Additional height for extra small screens */
+@media (max-width: 480px) {
+ .law-library-card-details {
+  height: 400px;
+ }
+}
+
+/* Adjustments for extremely small screens */
+@media (max-width: 360px) {
+ .law-library-card-details {
+  height: 425px;
+ }
+}
+/* @media (max-width: 1024px) {
+ .law-library-card-details {
+  height: 300px;
+ }
+}
+
+@media (max-width: 768px) {
+ .law-library-card-details {
+  height: 350px;
+ }
+}
+
+@media (max-width: 480px) {
+ .law-library-card-details {
+  height: 400px;
+ }
+} */
