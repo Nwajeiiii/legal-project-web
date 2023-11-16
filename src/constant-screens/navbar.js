@@ -55,9 +55,9 @@ function Navbar() {
         <NavbarButton name="LEGAL DOC" route="/legal-doc" />
         <NavbarButton name="AIDS" route="/aids" />
         <NavbarButton name="FORUM" route="/forum" />
-        <NavbarButton name="LEGAL GUIDES" route="/legal-guided" />
+        <NavbarButton name="LEGAL GUIDES" route="/legal-guides" />
         <NavbarButton name="FAQS" route="/faqs" />
-        <NavbarButton name="BLOG" route="blog" />
+        <NavbarButton name="BLOG" route="/blog" />
       </div>
       {user.isUserLoggedIn ? (
         <div className="user-initials" data-aos="fade-up">

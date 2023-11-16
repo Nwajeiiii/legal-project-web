@@ -1,0 +1,60 @@
+.icon-inside-input {
+ background-image: url('../images/png/search-icon.png');
+ /* Replace with your icon path */
+ background-size: 20px 20px;
+ /* Adjust size of the icon as needed */
+ background-position: 10px center;
+ /* Position the icon */
+ background-repeat: no-repeat;
+ border: 1px #AD9779 solid;
+ color: #AD9779;
+ padding-left: 50px;
+ /* Add padding to make space for the icon */
+ /* Other styles like height, border, etc., can be added as needed */
+ width: 50%;
+ min-height: 40px;
+}
+
+.icon-inside-input:focus {
+ border: 1px #AD9779 solid;
+ /* Keep the border same as normal state */
+ outline: none;
+ /* Optional: removes the default focus outline */
+}
+
+.icon-inside-input::placeholder {
+ color: #AD9779;
+}
+
+.search-bar-component{
+ margin: 50px 0;
+ text-align: center;
+}
+
+.search-bar-component-button{
+ background-color: #AD9779;
+ border: 0;
+ color: white;
+ min-height: 40px;
+ width: 20%;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+
+ .icon-inside-input,
+ .search-bar-component-button {
+  font-size: 12px;
+  /* Smaller font size for smaller screens */
+ }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+
+ .icon-inside-input,
+ .search-bar-component-button {
+  font-size: 10px;
+  /* Even smaller font size for very small screens */
+ }
+}
