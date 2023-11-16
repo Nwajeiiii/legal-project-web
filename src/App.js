@@ -23,7 +23,11 @@ function App() {
           <Route path="/signup" element={<SignUpScreen />} />
           <Route path="/signin" element={<SigninScreen />} />
           <Route path="/law-library" element={<LawLibrary />} />
-          <Route path="/law-library-info" element={<LawLibraryInfo />} />
+          <Route
+            path="/law-library/info/:topicId"
+            element={<LawLibraryInfo />}
+          />
+
           {/* Add other routes here in the future */}
         </Routes>
       </UserProvider>

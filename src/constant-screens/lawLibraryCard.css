@@ -10,10 +10,11 @@
  padding: 30px 50px;
 }
 
-.law-library-card-details button{
+.law-library-card-details-link{
  background-color: #1A243F;
  border: 0;
  color: #AD9779;
+ text-decoration: none;
 }
 
 .law-library-card-details-description{

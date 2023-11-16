@@ -1,0 +1,40 @@
+.law-info-body {
+ padding: 50px 100px;
+}
+
+.law-info-body li {
+ color: #10172C;
+ font-size: 16px;
+ font-weight: 100;
+ line-height: 2.0;
+}
+
+.law-info-body ul {
+ margin-bottom: 15px;
+}
+
+.law-info-body-heading {
+ color: #10172C;
+ font-size: 20px;
+ font-weight: 500;
+ margin-bottom: 5px;
+}
+
+.law-info-body-paragraph {
+ color: #10172C;
+ font-size: 16px;
+ font-weight: 100;
+ line-height: 2.0;
+ margin-bottom: 15px;
+}
+
+.law-info-body-title {
+ color: #10172C;
+ font-size: 48px;
+ font-weight: bolder;
+ margin-bottom: 50px;
+}
+
+.law-info-database-image {
+ width: 100%;
+}

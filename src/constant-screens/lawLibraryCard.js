@@ -2,15 +2,22 @@ import "./lawLibraryCard.css";
 import "aos/dist/aos.css";
 
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 
-function LawLibraryCard({ img, alt, title, description }) {
+function LawLibraryCard({ img, alt, title, description, id }) {
+  const navigate = useNavigate();
+
   useEffect(() => {
     AOS.init({
       duration: 2000, // You can adjust the duration as needed
     });
     AOS.refresh();
   }, []);
+
+  const handleReadMoreClick = () => {
+    navigate(`/law-library/info/${id}`);
+  };
 
   return (
     <div className="law-libray-card">
@@ -30,7 +37,13 @@ function LawLibraryCard({ img, alt, title, description }) {
         >
           {description}
         </p>
-        <button data-aos="fade-down">READ MORE</button>
+        <button
+          className="law-library-card-details-link"
+          data-aos="fade-down"
+          onClick={handleReadMoreClick}
+        >
+          READ MORE
+        </button>
       </div>
     </div>
   );
