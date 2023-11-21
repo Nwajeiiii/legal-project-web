@@ -1,0 +1,32 @@
+.legal-doc-result-body {
+ background-color: #10172C;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 10px;
+ padding: 20px 0;
+}
+
+.legal-doc-result-button {
+ align-items: center;
+ background-color: #AD9779;
+ border: 0;
+ color: white;
+ cursor: pointer;
+ display: flex;
+ font-weight: bold;
+ justify-content: center;
+ min-height: 40px;
+ min-width: 240px;
+ margin: 10px 100px;
+ max-height: 40px;
+ max-width: 240px;
+ text-decoration: none;
+}
+
+.legal-doc-result-item {
+ color: white;
+ font-size: 3vh;
+ font-weight: 100;
+ margin: 0 100px;
+}

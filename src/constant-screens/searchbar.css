@@ -27,7 +27,7 @@
 }
 
 .search-bar-component{
- margin: 50px 0;
+ margin: 50px 100px;
  text-align: center;
 }
 
@@ -35,9 +35,20 @@
  background-color: #AD9779;
  border: 0;
  color: white;
+ cursor: pointer;
  min-height: 40px;
+ transition: background-color 0.3s;
  width: 20%;
 }
+
+.search-bar-component-button:hover {
+ background-color: #D1B19B;
+ /* Slightly lighter shade for hover */
+}
+
+/* .search-bar-component-button:active {
+ background-color: #B89676;
+} */
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {

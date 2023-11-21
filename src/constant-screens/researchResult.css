@@ -1,0 +1,31 @@
+.research-result-body {
+ background-color: #10172C;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 10px;
+ padding: 20px 0;
+}
+
+.research-result-button {
+ align-items: center;
+ background-color: #AD9779;
+ border: 0;
+ color: white;
+ cursor: pointer;
+ display: flex;
+ justify-content: center;
+ min-height: 40px;
+ min-width: 120px;
+ margin: 10px 100px;
+ max-height: 40px;
+ max-width: 120px;
+ text-decoration: none;
+}
+
+.resarch-result-item {
+ color: white;
+ font-size: 4vh;
+ font-weight: bolder;
+ margin: 0 100px;
+}
