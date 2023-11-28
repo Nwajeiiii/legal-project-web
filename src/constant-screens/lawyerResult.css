@@ -1,4 +1,11 @@
-.research-result-body {
+.lawyer-result-bio {
+ color: white;
+ font-size: 3vh;
+ font-weight: 100;
+}
+
+.lawyer-result-body {
+ align-items: center;
  background-color: #10172C;
  display: flex;
  flex-wrap: wrap;
@@ -8,7 +15,7 @@
  padding: 20px 100px;
 }
 
-.research-result-button {
+.lawyer-result-button {
  align-items: center;
  background-color: #AD9779;
  border: 0;
@@ -16,16 +23,16 @@
  cursor: pointer;
  display: flex;
  flex: 1;
+ font-weight: bold;
  justify-content: center;
  min-height: 40px;
  min-width: 120px;
  margin: 10px 0;
  max-height: 40px;
  max-width: 120px;
- text-decoration: none;
 }
 
-.resarch-result-item {
+.lawyer-result-heading {
  color: white;
  flex: 3;
  font-size: 4vh;

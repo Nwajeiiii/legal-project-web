@@ -1,0 +1,116 @@
+.lawyer-biography {
+ border: 1px solid grey;
+ padding: 20px 50px;
+ justify-content: center;
+ width: 40%;
+}
+
+.lawyer-biography h2 {
+ color: #AD9779;
+ font-size: 3vh;
+ margin-bottom: 15px;
+}
+
+.lawyer-biography p {
+ color: #10172C;
+ font-size: 2vh;
+ line-height: 2.0;
+}
+
+.lawyer-detail-style {
+ align-items: center;
+ display: flex;
+ gap: 10px;
+}
+
+.lawyer-details {
+ display: flex;
+ margin: 0 100px;
+}
+
+.lawyer-details-description {
+ display: flex;
+ flex-direction: column;
+}
+
+.lawyer-details-first-column {
+ align-items: center;
+ display: flex;
+ flex: 3;
+ flex-direction: column;
+ justify-content: center;
+ gap: 40px;
+}
+
+.lawyer-details-info {
+ display: flex;
+ gap: 20px;
+ justify-content: center;
+}
+
+.lawyer-details-second-column {
+ align-items: center;
+ border: 1px solid grey;
+ display: flex;
+ flex: 2;
+ flex-direction: column;
+ gap: 15px;
+ padding: 50px 0;
+}
+
+.lawyer-details-second-column button {
+ background-color: #10172C;
+ border: 0;
+ color: white;
+ padding: 15px;
+ width: 100%;
+}
+
+.lawyer-details-second-column form {
+ width: 80%;
+}
+
+.lawyer-details-second-column h3 {
+ color: #AD9779;
+ font-size: 48px;
+ font-weight: 500;
+ margin: 0;
+}
+
+.lawyer-details-second-column p {
+ color: #10172C;
+ font-size: 24px;
+ font-weight: bold;
+ margin: 0;
+}
+
+.lawyer-initials {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ font-size: 48px;
+ font-weight: bold;
+ color: #fff;
+ background-color: #AD9779;
+}
+
+.lawyer-name {
+ color: #10172C;
+ font-size: 24px;
+ font-weight: bold;
+}
+
+.lawyer-textarea {
+ padding-top: 10px;
+ padding-left: 10px;
+ width: 100%;
+}
+
+.lawyer-textarea::placeholder {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: start;
+ vertical-align: top;
+}

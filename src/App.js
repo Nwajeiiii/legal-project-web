@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { UserProvider } from "./context-apis/UserContext.js";
 import { SearchProvider } from "./context-apis/SearchContext.js";
 import { LegalDocProvider } from "./context-apis/LegalDocContext.js";
+import { AidsProvider } from "./context-apis/AidsContext.js";
 
 import SignUpScreen from "./full-screens/signupscreen.js";
 import SigninScreen from "./full-screens/signinscreen.js";
@@ -48,7 +49,14 @@ function App() {
               </LegalDocProvider>
             }
           />
-          <Route path="/aids" element={<AidScreen />} />
+          <Route
+            path="/aids"
+            element={
+              <AidsProvider>
+                <AidScreen />
+              </AidsProvider>
+            }
+          />
         </Routes>
       </UserProvider>
     </Router>
