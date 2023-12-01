@@ -72,7 +72,9 @@ function AboutScreenBody() {
 
   return (
     <div>
-      <img src={aboutUsImage} alt="About" className="about-image" />
+      <img src={aboutUsImage} alt="About" style={{
+        width: "100%"
+      }} />
       <div className="about-body">
         <div className="about-first">
           <div className="about-navigation" data-aos="fade-left">

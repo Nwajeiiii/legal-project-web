@@ -18,6 +18,10 @@ import LawLibraryInfo from "./full-screens/lawlibraryscreeninfo.js";
 import ResearchScreen from "./full-screens/researchscreen.js";
 import LegalDoc from "./full-screens/legaldocscreen.js";
 import AidScreen from "./full-screens/aidsscreen.js";
+import ForumScreen from "./full-screens/forum.js";
+import LegalGuides from "./full-screens/legalguides.js";
+import FAQScreen from "./full-screens/faqs.js";
+import ProfileScreen from "./full-screens/profile.js";
 
 function App() {
   return (
@@ -57,6 +61,10 @@ function App() {
               </AidsProvider>
             }
           />
+          <Route path="/forum" element={<ForumScreen />} />
+          <Route path="/legal-guides" element={<LegalGuides />} />
+          <Route path="/faqs" element={<FAQScreen />} />
+          <Route path="/profile" element={<ProfileScreen />} />
         </Routes>
       </UserProvider>
     </Router>

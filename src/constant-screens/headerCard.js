@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
 
-function HeaderCard (props) {
+function HeaderCard ( {name} ) {
    useEffect(() => {
      AOS.init({
        duration: 2000, // You can adjust the duration as needed
@@ -13,7 +13,7 @@ function HeaderCard (props) {
 
  return (
    <button className="headerCard" data-aos="fade-down">
-     {props.name}
+     {name}
    </button>
  );
 }

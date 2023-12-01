@@ -1,0 +1,55 @@
+.modal-overlay {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.5);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 1000;
+}
+
+.modal {
+ background-color: white;
+ padding: 80px;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ width: 50%;
+ max-width: 600px;
+}
+
+.modal input,
+.modal textarea {
+ padding: 15px;
+ /* Increased padding */
+ margin-bottom: 15px;
+ /* Increased margin */
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ font-size: 1.2em;
+ /* Larger font size */
+}
+
+.modal textarea {
+ height: 150px;
+ /* Larger fixed height for textarea */
+}
+
+.modal button {
+ padding: 15px 30px;
+ /* Increased padding */
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 1.1em;
+ /* Slightly larger font size */
+}
+
+.modal button:hover {
+ opacity: 0.9;
+}

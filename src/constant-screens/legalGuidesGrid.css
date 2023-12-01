@@ -1,0 +1,8 @@
+.legal-guide-grid-item{
+ background-color: #10172C;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ padding: 50px 40px;
+}
