@@ -3,7 +3,7 @@ import axios from "axios";
 
 const fetchForumPosts = () => {
   return axios
-    .get("http://localhost:8080/forums")
+    .get("https://legal-backend.onrender.com/forums")
     .then((response) => response.data)
     .catch((error) => console.error("Error fetching forum posts:", error));
 };
