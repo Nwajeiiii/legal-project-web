@@ -11,7 +11,7 @@ const fetchForumPosts = () => {
 const createForumPost = async (postData) => {
   try {
     const response = await axios.post(
-      "http://localhost:8080/forums/create",
+      "https://legal-backend.onrender.com/forums/create",
       postData
     );
     return response.data;

@@ -3,7 +3,7 @@ import axios from "axios";
 export const fetchLegalDocuments = async (query) => {
   try {
     const response = await axios.get(
-      `http://localhost:8080/legal-documents/${query}`
+      `https://legal-backend.onrender.com/legal-documents/${query}`
     );
     return response.data;
   } catch (error) {

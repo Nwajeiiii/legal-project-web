@@ -3,7 +3,7 @@ import axios from "axios";
 export const changePassword = async (email, newPassword) => {
   try {
     const response = await axios.patch(
-      "http://localhost:8080/users/change-password",
+      "https://legal-backend.onrender.com/users/change-password",
       {
         email,
         password: newPassword,

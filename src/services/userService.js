@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/users"; // Base URL for user-related endpoints
+const BASE_URL = "https://legal-backend.onrender.com/users"; // Base URL for user-related endpoints
 
 export const userService = {
   // Function to handle user registration
